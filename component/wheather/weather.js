@@ -75,7 +75,7 @@ const styles = StyleSheet.create({
     fontFamily: 'Roboto',
     justifyContent: 'center',
     fontSize: '15px',
-    marginTop: '10px'
+    marginTop: '10px',
   },
 })
 export default Weather

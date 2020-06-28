@@ -66,8 +66,8 @@ const styles = StyleSheet.create({
   image: {height: '100px', width: '100px', marginBottom: '10px'},
   title: {fontFamily: 'Roboto', fontSize: '24px', fontWeight: 'bold', marginBottom: '10px'},
   subtitle: {fontFamily: 'Roboto', fontSize: '16px', marginBottom: '10px'},
-  error: {fontFamily: 'Roboto', fontSize: '20px', marginTop: '10px', color:'red'},
-  input:{height: '40px', borderColor: 'black', borderWidth: '1px', padding: '3px', marginBottom: '10px', fontSize: '16px'},
+  error: {fontFamily: 'Roboto', fontSize: '20px', marginTop: '10px', color: 'red'},
+  input: {height: '40px', borderColor: 'black', borderWidth: '1px', padding: '3px', marginBottom: '10px', fontSize: '16px'},
 })
 
 export default App
