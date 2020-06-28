@@ -44,7 +44,7 @@ class App extends Component {
           <TextInput style={styles.input}
                      onChangeText={(text) => this.setState({text: text})}
           />
-          <Button style={styles.button} title={'Узнать погоду'} onPress={() => this.getInfo(this.state.text)}/>
+          <Button title={'Узнать погоду'} onPress={() => this.getInfo(this.state.text)}/>
           {this.state.city ? <Weather response={this.state.city}/> : null}
           {this.state.error && <Text style={styles.error}>{this.state.error}</Text>}
         </View>
@@ -58,10 +58,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#fffff0',
     alignItems: 'center',
     justifyContent: 'center',
-  },
-  button: {
-    width: '150px',
-    borderRadius: '30px',
   },
   image: {height: '100px', width: '100px', marginBottom: '10px'},
   title: {fontFamily: 'Roboto', fontSize: '24px', fontWeight: 'bold', marginBottom: '10px'},
